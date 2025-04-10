@@ -1,0 +1,31 @@
+Q.   what is backened ?
+Ans: it consist 3 things.
+    (i) Server : basically it is a computer
+    (ii) The Application :  which have all logic to enables the web page to function
+    (iii) Database : we can store and retrieve user data
+
+
+  1. Server:
+            it is a computer.
+            server is On 24/7 => it can listens the incoming requests from browser all the over the world 
+            Any Computer which connected to the internet, we called it server.
+            but when use to create a web page only on our computer like local host then our computer acts like a server.
+
+  2. Application : 
+                 it is basically the logic that runs on that computer, the server.
+                 and this logic deteremines how we want to respond to the request from the browser.  
+
+   3. Database :
+               Usually our wep apps gets more complex and larger => we start to store the user data.
+               Assume if our computer lost power and you didn't have any sort of databse, then all of that data will get completely wiped. 
+               So that's we use the database as form of permananet storage for your web application.
+
+
+
+   PROCESS:-
+
+        Web page(HTML,CSS,JS)  ----> requested from Browser --------> Our web page server --------> returns the HTML file ---------> render on the browser.    
+
+   WEB PAGE FUNCTIONALITY
+
+        user (Login by -> email & password) ----->    these 2 information(email,pass) ------>  passed to our server in a request ------> find Apllication (which knows the logic i.e which knows how to handle the LOGIN) in this file there is a logic like how to login a user -------> we could look to our logic and our logic is pretty simple ----------> we look inside our databases , look for a particular (email & pass) and we can compare that pass that's in the databases for user's email against the pass that they send us from the frontened.  if those two pieces of data match,---------> then we can send back via the server, -----> in a response ------> in the form of , say the Home Page.  -------> and if didm't match the pass -------> then maybe our response would be to send them back to the login page and try agin.             
