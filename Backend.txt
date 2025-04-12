@@ -45,4 +45,4 @@
 🧠 Summary:
      Backend = Server + Application + Database
      It powers the brain of any web application.
-     Handles all the data, logic, and communication between frontend and backend.                 
+     Handles all the data, logic, and communication between frontend and backend.                
